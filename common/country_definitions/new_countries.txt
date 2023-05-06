@@ -504,3 +504,30 @@ AU2 = {
 	cultures = { dutch }
 	capital = STATE_WESTERN_AUSTRALIA
 }
+
+AU3 = { # Aboriginals
+    color = { 155 54 16 }
+
+    tier = principality
+
+    country_type = decentralized
+
+    cultures = { aborigine }
+
+    capital = STATE_QUEENSLAND
+}
+
+
+#### Lavo
+
+
+LVO = {
+	color = hsv360{ 221 27 92 }
+
+	country_type = unregonized
+
+	tier = kingdom
+
+	cultures = { khmer }
+	capital = STATE_BANGKOK
+}
