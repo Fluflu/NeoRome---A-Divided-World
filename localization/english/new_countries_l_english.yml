@@ -81,6 +81,14 @@
  BNT_ADJ:0 "Banati"
  SFO:0 "Sofia"
  SFO_ADJ:0 "Sofian"
-
  MRT:0 "Marathi"
  MRT_ADJ:0 "Marathi"
+ AU1:0 "Ao"
+ AU1_ADJ:0 "Ao"
+ AU2:0 "New Rotterdam"
+ AU2_ADJ:0 "New Rotterdam"
+
+ SIA:0 "Thailand"
+ SIA_ADJ:0 "Thai"
+ LVO:0 "Lavo"
+ LVO_ADJ:0 "Lavo"
