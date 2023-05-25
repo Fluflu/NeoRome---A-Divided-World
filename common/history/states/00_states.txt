@@ -1,7 +1,8 @@
-﻿# "Why do some state entries have quote marks around them, when others don't?"
-# "It's because of differing methods of editing throughout the production of the game. Quote marks are unnecessary, but harmless if present."
-
+﻿
 ##### provinces and states Neo-Rome #####
+
+# "Why do some state entries have quote marks around them, when others don't?"
+# "It's because of differing methods of editing throughout the production of the game. Quote marks are unnecessary, but harmless if present."
 
 STATES = {
 	s:STATE_MINSK = {
@@ -1648,11 +1649,22 @@ STATES = {
 	s:STATE_DAHOMEY = {
 		create_state = {
 			country = c:DAH
-			owned_provinces = { x01A011 xDE6889 x80A011 xB616CF xEE2352 x818487 x02DAF6 x672168 x149CF1 x64DB85 x012190 xC233AC x222F93 x9DB091 x131955 x65C6A9 x716503 x20958D x483654 x823A0A xC8C8A6 x4D0477 }
+			owned_provinces = { 
+				xB616CF x01A011 x80A011 xDE6889 xC8C8A6 x012190
+			}
+		}
+		create_state = {
+			country = c:BRG
+			owned_provinces = {
+				xEE2352 x818487 x02DAF6 x672168 x149CF1 x64DB85 xC233AC x222F93 x9DB091 x131955 x65C6A9 x716503 x20958D x483654 x823A0A x4D0477 
+			}
 		}
 		
 		add_homeland = fon
 		add_homeland = yoruba
+		add_homeland = fulbe
+		add_homeland = akan
+		add_homeland = songhai
 	}
 	s:STATE_GABON = {
 		create_state = {
@@ -3271,7 +3283,7 @@ STATES = {
 			owned_provinces = { "x6E4891" "xCC3250" }
 		}
 		create_state = {
-			country = c:LRR
+			country = c:LOR
 			owned_provinces = { "x4899A2" "xF0C0A0" }
 		}
 		
@@ -3307,7 +3319,7 @@ STATES = {
 	}
 	s:STATE_BRITTANY = {
 		create_state = {
-			country = c:BRT
+			country = c:BRI
 			owned_provinces = { "x10A040" "x2368E7" "x2BD902" "x32C2E2" "x50F4A7" "x55607E" "x706000" "x85E5AC" "xA0B0D1" "xABF468" "xC4D7A2" "xD0E080" "xD584A0" "xF91DD2" }
 		}
 		
@@ -3316,7 +3328,7 @@ STATES = {
 	}
 	s:STATE_BURGUNDY = {
 		create_state = {
-			country = c:BRG
+			country = c:B01
 			owned_provinces = { "x380D42" "x6D7896" "x708060" "x79B85C" "x8329EC" "x8C3297" "xF08060" }
 		}
 		create_state = {
@@ -3332,7 +3344,7 @@ STATES = {
 			owned_provinces = { "x4B7684" "x5FEA2F" "x669027" "x8AE8D1" "xD6A06D" "xE280FC" "xEF00DF" "xEF40A0" "xEFBF20" }
 		}
 		create_state = {
-			country = c:BRG
+			country = c:B01
 			owned_provinces = { "x600883" }
 		}
 		
@@ -3340,7 +3352,7 @@ STATES = {
 	}
 	s:STATE_FRANCHE_COMTE = {
 		create_state = {
-			country = c:BRG
+			country = c:B01
 			owned_provinces = { "x3D8EF9" "x700060" "xA9D961" "xB000E0" "xCF46D1" "xF00060" }
 		}
 		
@@ -3348,7 +3360,7 @@ STATES = {
 	}
 	s:STATE_LORRAINE = {
 		create_state = {
-			country = c:LRR
+			country = c:LOR
 			owned_provinces = { "x282DCC" "x3080E0" "x70BFA0" "x7FC1E6" "xB080E0" "xC5F13A" }
 		}
 		
@@ -4573,12 +4585,22 @@ STATES = {
 	s:STATE_HAUSALAND = {
 		create_state = {
 			country = c:SOK
-			owned_provinces = { x5DFEA9 x80DF90 x6F05D2 xA15613 xCAC7F9 x81A7FC x34871E x90F068 xB44A59 x40DF11 x510816 x00E669 x347C9D x0384A9 x8E8AC1 x569FF1 xB0475D x858543 x9DD8E1 xCA0FEB x71EDC6 xBCB447 x0DF31F x6D072E x50FF61 xE04A46 xA2E6F9 xC9FC2D x96C7B6 x61CC39 xC76E76 x8CA417 xF0DC5B xF1D52F x9D553E x69DA37 xC06110 xDDE2EB }
+			owned_provinces = { 
+				x5DFEA9 x80DF90 x6F05D2 xA15613 xCAC7F9 x81A7FC x34871E x90F068 xB44A59 x40DF11 x510816 x00E669 x347C9D x0384A9 x8E8AC1 x569FF1 xB0475D x858543 x9DD8E1 xCA0FEB x71EDC6 xBCB447 x0DF31F x6D072E x50FF61 xE04A46 xA2E6F9 xC9FC2D x96C7B6 x61CC39 xC76E76 
+			}
+		}
+		create_state = {
+			country = c:BRG
+			owned_provinces = {
+				xF0DC5B x69DA37 xF1D52F xDDE2EB x8CA417 x9D553E xC06110
+			}
 		}
 		
 		add_homeland = fulbe
 		add_homeland = hausa
 		add_homeland = yoruba
+		add_homeland = equatorial_bantu
+		add_homeland = songhai
 	}
 	s:STATE_BENIN = {
 		create_state = {
@@ -4590,49 +4612,55 @@ STATES = {
 		add_homeland = tiv
 		add_homeland = ibo
 		add_homeland = edo
+		add_homeland = fulbe
 	}
 	s:STATE_YORUBA_STATES = {
 		create_state = {
 			country = c:OYO
-			owned_provinces = { x806010 x352435 xED72F6 xCECEAA x406010 x8A5AEE x936421 x22C180 x08F712 }
-		}
-		create_state = {
-			country = c:PAP
-			owned_provinces = { x01E011 xB7F894 x01A090}
+			owned_provinces = { x01E011 x806010 xB7F894 x352435 xED72F6 xCECEAA x406010 x8A5AEE x936421 x01A090 x22C180 x08F712 }
 		}
 		
 		add_homeland = yoruba
+		add_homeland = fon
 	}
 	s:STATE_NIGER_DELTA = {
 		create_state = {
 			country = c:IBO
-			owned_provinces = { xC82CCC xA8A592 xD16652 x93634A x8B459B x4D3C3A x90B6CB x255D8A x337660 xD8056B x80A090 }
-		}
-		create_state = {
-			country = c:SPA
-			owned_provinces = { x016090 x553813 x1B328B x938816 x01A050 }
+			owned_provinces = { x016090 x1B328B xC82CCC x553813 x01A050 x938816 xA8A592 xD16652 x93634A x8B459B x4D3C3A x90B6CB x255D8A x337660 xD8056B x80A090 }
 		}
 		
 		add_homeland = ibo
 		add_homeland = ibibio
+		add_homeland = equatorial_bantu
 	}
 	s:STATE_OUTER_HAUSALAND = {
 		create_state = {
+			country = c:SOK
+			owned_provinces = {
+				x477B47 x6C8962 x4E40D7 x7EB3BB xB5EEFE x91CA6F x3921D3 x8B7291 xB42598 x531EE3 xD28E66 x05AF2A x3BD5AF x889E8E xA286FE x87DD49 xCF50A0 x0DEFAA x9266A1 x22D546 x5051A0 xB99FF2 xC06BCE xAE0018 x40E064 x34A317 x6516B9 xD5B946 x505ABF xAAB357 xD4E488 x119060
+			}
+		}
+		create_state = {
 			country = c:HAU
 			owned_provinces = { 
-				xB99FF2 x22D546 x6516B9 x05AF2A x3BD5AF xAE0018 xC06BCE x40E064 x34A317 x5051A0 x119060 xAAB357 x505ABF xD4E488 xD5B946 x3921D3 xD28E66 x87DD49 x9266A1 x0DEFAA x6C8962 xB42598 x4E40D7 x531EE3 xCF50A0 x477B47 xA286FE x889E8E x91CA6F xB5EEFE x8B7291 x7EB3BB x081330 xB6B510 x48B5C1 x93455F x7C3FD8 xD36F0B xA6FB18 xB03D4B x1622C1 xECC181 x3D2745 xADFCBB x80D945 xB354F7 x0A6F02 xE373B7 x50D09F xC9BC55 xAEAED9 xB4574B x37C83B x583B5E 
+				x081330 xB6B510 x48B5C1 x93455F x7C3FD8 xD36F0B xB03D4B x1622C1 xECC181 x3D2745 xADFCBB x80D945 xB354F7 x0A6F02 xE373B7 x50D09F xC9BC55 
 			}
 		}
 		create_state = {
 			country = c:BOR
 			owned_provinces = {
 				x291801 x91E205 x96E7A9 x95B3FC xB5CA43 x2AD7EB x281C77 x6E2718 x59CF4B xB78BE4 x98907F xD1320A x064C0C xAD963A x1110E0 xC438ED x1659B8 xA42F37 x51E372
+				x583B5E x37C83B xA6FB18 xAEAED9 xB4574B
 			}
 		}
 		
 		add_homeland = hausa
 		add_homeland = kanuri
 		add_homeland = fulbe
+		add_homeland = equatorial_bantu
+		add_homeland = tuareg
+		add_homeland = dyula
+		add_homeland = songhai
 	}
 	s:STATE_NIGER = {
 		create_state = {
@@ -4642,6 +4670,7 @@ STATES = {
 		
 		add_homeland = hausa
 		add_homeland = tuareg
+		add_homeland = fulbe
 	}
 	s:STATE_BORNU = {
 		create_state = {
