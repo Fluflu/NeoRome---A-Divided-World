@@ -294,18 +294,11 @@ CPT = {
 
 
 MNG = {
-	pattern = "pattern_solid.tga"
-	color1 = "yellow"
-
-	colored_emblem = {
-		texture = "ce_circle.dds"
-		color1 = "white"
-	}
-	colored_emblem = {
-		texture = "ce_star_08.dds"
-		color1 = "black"
-		instance = { scale = { 0.6 0.6 } }
-	}
+   	 pattern = "pattern_solid.tga"
+   	 color1 = "yellow"
+   	 textured_emblem = {
+   	     texture = "te_coa_ming.dds"
+    	}
 }
 
 
@@ -637,4 +630,12 @@ MRT = {
 		color1 = "white"
 		color2 = "orange"
     	}
+}
+
+AU1 = {
+    pattern = "pattern_solid.tga"
+    color1 = "yellow"
+    textured_emblem = {
+        texture = "te_coa_mindao.dds"
+    }
 }

@@ -1,0 +1,357 @@
+﻿
+##### new countries #####
+
+VIR = { # New Sweden
+	dynamic_country_name = {
+		name = dyn_c_new_sweden
+		adjective = dyn_c_new_sweden_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:SWE
+			c:SWE = {
+				has_diplomatic_pact = {
+					who = c:VIR
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+
+
+VIR = { # New Sweden
+	dynamic_country_name = {
+		name = dyn_c_new_sweden2
+		adjective = dyn_c_new_sweden2_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:SWP
+			c:SWP = {
+				has_diplomatic_pact = {
+					who = c:VIR
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+NWY = { # New Holland
+	dynamic_country_name = {
+		name = dyn_c_new_holland
+		adjective = dyn_c_new_holland_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:NET
+			c:NET = {
+				has_diplomatic_pact = {
+					who = c:NWY
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+UOM = { # Michigan
+	dynamic_country_name = {
+		name = dyn_c_new_wales
+		adjective = dyn_c_new_wales_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:GBR
+			c:GBR = {
+				has_diplomatic_pact = {
+					who = c:UOM
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+UGE = { # New Scotland
+	dynamic_country_name = {
+		name = dyn_c_new_sctoland
+		adjective = dyn_c_new_sctoland_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:SCO
+			c:SCO = {
+				has_diplomatic_pact = {
+					who = c:UGE
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+
+UGE = { # New Gaelic
+	dynamic_country_name = {
+		name = dyn_c_new_gae
+		adjective = dyn_c_new_gae_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:GAE
+			c:GAE = {
+				has_diplomatic_pact = {
+					who = c:UGE
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+### alt empire names ###
+
+MGL = { # Yuan
+	dynamic_country_name = {
+		name = dyn_c_yuan
+		adjective = dyn_c_yuan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+    			exists = scope:actor
+    			scope:actor = {
+				OR = {
+					owns_entire_state_region = STATE_NORTHERN_MANCHURIA
+					owns_entire_state_region = STATE_TRANS_BAIKAL
+				}
+			}
+		}
+	}
+}
+
+
+CHI = { # China
+	dynamic_country_name = {
+		name = dyn_c_china
+		adjective = dyn_c_china_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+    			exists = scope:actor
+    			scope:actor = {
+        			OR = {
+					exists = c:MGL
+					exists = c:MNG
+					NOT = { 
+						owns_entire_state_region = STATE_URGA 
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+RUS = { # Ruthenian Empire
+	dynamic_country_name = {
+		name = dyn_c_ruth
+		adjective = dyn_c_ruth_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+    			exists = scope:actor
+    			scope:actor = {
+        			OR = {
+            				owns_entire_state_region = STATE_KIEV
+           				owns_entire_state_region = STATE_MINSK
+            				owns_entire_state_region = STATE_MOSCOW 
+
+           				NOT = {
+                				owns_entire_state_region = STATE_TOMSK
+                				owns_entire_state_region = STATE_KAZAN
+                				owns_entire_state_region = STATE_PERM
+                				exists = c:IUS
+            				}
+        			}
+    			}
+		}
+	}
+}
+
+
+ITA = { # Western Rome
+	dynamic_country_name = {
+		name = dyn_c_wre
+		adjective = dyn_c_wre_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+    			exists = scope:actor
+			coa_def_republic_flag_trigger = yes
+
+			scope:actor = { 
+				has_law = law_type:law_state_religion
+			}
+
+    			scope:actor = {
+				OR = {
+					owns_entire_state_region = STATE_LAZIO
+					owns_entire_state_region = STATE_ROMAGNA 
+					owns_entire_state_region = STATE_DALMATIA 
+				}
+			}
+		}
+	}
+}
+
+##########################
+### alt names part two ###
+##########################
+
+UOM = { # Great Lake company
+	dynamic_country_name = {
+		name = dyn_c_lakes
+		adjective = dyn_c_lakes_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:NRS
+			c:NRS = {
+				has_diplomatic_pact = {
+					who = c:UOM
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+HBC = { # Markland
+	dynamic_country_name = {
+		name = dyn_c_markland
+		adjective = dyn_c_markland_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:NRS
+			c:NRS = {
+				has_diplomatic_pact = {
+					who = c:HBC
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+ONT = { # Vinland
+	dynamic_country_name = {
+		name = dyn_c_vinland
+		adjective = dyn_c_vinland_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:NRS
+			c:NRS = {
+				has_diplomatic_pact = {
+					who = c:ONT
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+
+AU2 = { # New Rotterdam Company
+	dynamic_country_name = {
+		name = dyn_c_new_rotterdam_company
+		adjective = dyn_c_new_rotterdam_company_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:NET
+			c:NET = {
+				has_diplomatic_pact = {
+					who = c:AU2
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+AU1 = { # Mingao
+	dynamic_country_name = {
+		name = dyn_c_mingao
+		adjective = dyn_c_mingao_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:MNG
+			c:MNG = {
+				has_diplomatic_pact = {
+					who = c:AU1
+					type = vassal
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+LVO = { # Lavo Kingdom
+	dynamic_country_name = {
+		name = dyn_c_lavo_kingdom
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+}
