@@ -608,7 +608,7 @@
 		}
 	}
 	s:STATE_FUJIAN={
-		region_state:TPG={
+		region_state:MNG={
 			create_building={
 				building="building_government_administration"
 				level=7
@@ -836,7 +836,7 @@
 		}
 	}
 	s:STATE_JIANGXI={
-		region_state:TPG={
+		region_state:MNG={
 			create_building={
 				building="building_government_administration"
 				level=11
@@ -1030,7 +1030,7 @@
 		}
 	}
 	s:STATE_HUNAN={
-		region_state:CHI={
+		region_state:MNG={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -1290,7 +1290,7 @@
 		}
 	}
 	s:STATE_TONKIN={
-		region_state:DAI={
+		region_state:SIA={
 			create_building={
 				building="building_government_administration"
 				level=3

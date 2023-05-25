@@ -521,7 +521,7 @@
 
 	}
 	s:STATE_FUJIAN = {
-		region_state:TPG = {
+		region_state:MNG = {
 			create_pop = {
 				culture = min
 				size = 9210004
@@ -633,7 +633,7 @@
 		}
 	}
 	s:STATE_JIANGXI = {
-		region_state:TPG = {
+		region_state:MNG = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 16549900
@@ -734,7 +734,7 @@
 		}
 	}
 	s:STATE_HUNAN = {
-		region_state:CHI = {
+		region_state:MNG = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 12513400
@@ -917,7 +917,7 @@
 		}
 	}
 	s:STATE_ANNAM = {
-		region_state:DAI = {
+		region_state:SIA = {
 			create_pop = {
 				culture = vietnamese
 				size = 2040333
