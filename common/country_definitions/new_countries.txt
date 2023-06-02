@@ -37,7 +37,7 @@ RHI = {
 
 ### Lotharingia ###
 
-BRG = {
+B01 = {
 	color = { 192 70 90 }
 	
 	country_type = recognized
@@ -55,7 +55,7 @@ LOR = {
 	tier = kingdom
 	
 	cultures = { french }	
-	capital = STATE_FRANCHE_COMTE
+	capital = STATE_LORRAINE
 }
 
 ### Greek ###
