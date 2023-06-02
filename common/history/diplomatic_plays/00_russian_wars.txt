@@ -21,4 +21,15 @@
 			type = dp_annex_war
 		}	
 	}
+	c:RUS = {
+		create_diplomatic_play = {
+			name = "Mongol wars"
+		
+			target_state = s:STATE_URGA.region_state:MGL
+			
+			war = yes
+			
+			type = dp_annex_war
+		}	
+	}
 }

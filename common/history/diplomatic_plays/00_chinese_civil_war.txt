@@ -3,24 +3,18 @@
 		create_diplomatic_play = {
 			name = "Heavenly war of independence"
 		
-			target_state = s:STATE_FUJIAN.region_state:TPG
+			target_state = s:STATE_NANJING.region_state:TPG
 			
 			war = yes
 			
-			type = dp_annex_war
-			
-			add_war_goal = {
-				holder = c:CHI
-				type = return_state
-				target_state = s:STATE_NANJING.region_state:TPG
-			}			
+			type = dp_annex_war		
 		}	
 	}
 	c:CHI = {
 		create_diplomatic_play = {
 			name = "South Chinese wars"
 		
-			target_state = s:STATE_YUNNAN.region_state:MNG
+			target_state = s:STATE_SHAOZHOU.region_state:MNG
 			
 			war = yes
 			
@@ -31,7 +25,7 @@
 		create_diplomatic_play = {
 			name = "South Chinese wars"
 		
-			target_state = s:STATE_YUNNAN.region_state:MNG
+			target_state = s:STATE_SHAOZHOU.region_state:MNG
 			
 			war = yes
 			

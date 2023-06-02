@@ -50,6 +50,18 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
+			country = c:OZH
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:KZH
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:UZH
+			type = puppet
+		}
+		create_diplomatic_pact = {
 			country = c:YAK
 			type = puppet
 		}	
@@ -146,7 +158,7 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
-			country = c:RHI
+			country = c:RHE
 			type = puppet
 		}
 
@@ -155,9 +167,9 @@
 			type = puppet
 		}	
 
-		# Colony of Western Australia
+		# New Rotterdam
 		create_diplomatic_pact = {
-			country = c:WAS
+			country = c:AU2
 			type = puppet
 		}
 	}
@@ -226,9 +238,19 @@
 			type = tributary
 		}			
 	}
+	c:MNG = {
+		create_diplomatic_pact = {
+			country = c:SIA
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:DAI
+			type = tributary
+		}		
+	}
 	c:VIR = {
 		create_diplomatic_pact = {
-			country = c:LIB
+			country = c:CHE
 			type = protectorate
 		}
 	}
@@ -313,6 +335,10 @@
 		create_diplomatic_pact = {
 			country = c:DAI
 			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:AU1
+			type = vassal
 		}
 	}
 	c:SIA = {
@@ -463,7 +489,7 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
-			country = c:BRG
+			country = c:B01
 			type = puppet
 		}	
 	}	
