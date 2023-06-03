@@ -316,47 +316,11 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
-				size = 319508
+				size = 426108
 			}
 			create_pop = {
 				culture = hungarian
-				size = 406108
-			}
-			create_pop = {
-				culture = russian
-				size = 45008
-			}
-			create_pop = {
-				culture = tatar
-				size = 9200
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 44000
-			}
-			create_pop = {
-				culture = south_german
-				size = 20000
-			}
-			create_pop = {
-				culture = greek
-				size = 7996
-			}
-			create_pop = {
-				culture = bulgarian
-				size = 8000
-			}
-		}
-	}
-	s:STATE_MYKOLAIV = {
-		region_state:RUS = {
-			create_pop = {
-				culture = ukrainian
-				size = 796108
-			}
-			create_pop = {
-				culture = hungarian
-				size = 40108
+				size = 566108
 			}
 			create_pop = {
 				culture = south_italian
@@ -376,7 +340,7 @@
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 114000
+				size = 154000
 			}
 			create_pop = {
 				culture = romanian
@@ -384,11 +348,15 @@
 			}
 			create_pop = {
 				culture = south_german
-				size = 8000
+				size = 28000
+			}
+			create_pop = {
+				culture = greek
+				size = 7996
 			}
 			create_pop = {
 				culture = bulgarian
-				size = 4000
+				size = 12000
 			}
 		}
 	}
