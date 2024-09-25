@@ -8,17 +8,26 @@
 			war = yes
 			
 			type = dp_annex_war
-		}	
+			
+			add_target_backers = {
+				c:SYR
+			}
+			add_war_goal = {
+				holder = c:EGY
+				target_state = s:STATE_SYRIA.region_state:SYR
+				type = make_vassal
+			}
+		}
 	}
-	c:KAR = {
-		create_diplomatic_play = {
-			name = "Coptic war"
+	# c:KAR = {
+	# 	create_diplomatic_play = {
+	# 		name = "Coptic war"
 		
-			target_state = s:STATE_SYRIA.region_state:SYR
+	# 		target_state = s:STATE_SYRIA.region_state:SYR
 			
-			war = yes
+	# 		war = yes
 			
-			type = dp_annex_war
-		}	
-	}
+	# 		type = dp_annex_war
+	# 	}	
+	# }
 }

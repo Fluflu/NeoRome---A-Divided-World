@@ -43,51 +43,51 @@
 	c:MGL = {
 		create_diplomatic_pact = {
 			country = c:SIB
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:KAZ
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:OZH
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:KZH
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:UZH
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:YAK
-			type = puppet
+			type = vassal
 		}	
 		create_diplomatic_pact = {
 			country = c:PRM
-			type = puppet
+			type = vassal
 		}	
 		create_diplomatic_pact = {
 			country = c:IUS
-			type = puppet
+			type = vassal
 		}	
 		create_diplomatic_pact = {
 			country = c:BUK
-			type = puppet
+			type = vassal
 		}	
 		create_diplomatic_pact = {
 			country = c:KHI
-			type = puppet
+			type = vassal
 		}	
 		create_diplomatic_pact = {
 			country = c:KOK
-			type = puppet
+			type = vassal
 		}	
 		create_diplomatic_pact = {
 			country = c:XIN
-			type = puppet
+			type = vassal
 		}	
 	}
 	c:ABH = {
@@ -186,11 +186,11 @@
 	c:JAP = {
 		create_diplomatic_pact = {
 			country = c:ORG
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:ASK
-			type = puppet
+			type = vassal
 		}	
 	}	
 	c:NRS = {
@@ -354,7 +354,7 @@
 	c:CPT = {
 		create_diplomatic_pact = {
 			country = c:SYR
-			type = puppet
+			type = vassal
 		}
 	}
 	c:KAR = {
@@ -381,7 +381,11 @@
 		create_diplomatic_pact = {
 			country = c:EGY
 			type = puppet
-		}		
+		}
+		create_diplomatic_pact = {
+			country = c:ARB
+			type = vassal
+		}
 	}
 	c:SPA = {
 		create_diplomatic_pact = {
@@ -440,27 +444,27 @@
 	c:PAN = {
 		create_diplomatic_pact = {
 			country = c:JOD
-			type = puppet
+			type = vassal
 		}	
 		create_diplomatic_pact = {
 			country = c:BIK
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:JAI
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:JAS
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:MUG
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:SIN
-			type = puppet
+			type = vassal
 		}		
 	}	
 	c:FRA = {

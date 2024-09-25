@@ -352,6 +352,17 @@ NTH = {
 	capital = STATE_LANCASHIRE
 }
 
+KNN = {
+	color = { 171 42 29 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { british }
+	capital = STATE_HOME_COUNTIES
+}
+
 EXX = {
 	color = { 171 46 29 }
 	

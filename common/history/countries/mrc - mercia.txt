@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:MRC = {
+	c:MRC ?= {
 		set_next_election_date = 1836.2.1
 		
 		ig:ig_intelligentsia = {

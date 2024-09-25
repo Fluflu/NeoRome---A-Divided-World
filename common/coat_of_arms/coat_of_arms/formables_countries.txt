@@ -216,6 +216,16 @@ GER_HAN = {
     }
 }
 
+ARE = {
+    pattern = "pattern_solid.tga"
+    color1 = "white"
+
+    colored_emblem = {
+        texture = "ce_cross_burgundy.dds"
+        color1 = "red"
+    }
+}
+
 #### State subjects ####
 
 UOM_subject = {

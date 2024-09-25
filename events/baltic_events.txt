@@ -10,13 +10,9 @@ baltic.1 = {
 	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 
    	 trigger = {
-	 	OR = {
-    			AND = {
-     	   			exists = c:RUS
-   	     			this = c:RUS
-				year > 1845.1.1	
-			}
-		}
+     	   	exists = c:RUS
+   	     	this = c:RUS
+		year > 1845	
 	}
 
 	event_image = {
@@ -48,6 +44,11 @@ baltic.1 = {
 					holder = c:RUS
 					type = conquer_state
 					target_state = s:STATE_MAZOVIA.region_state:SWP
+				}
+				add_war_goal = {
+					holder = c:RUS
+					type = conquer_state
+					target_state = s:STATE_LITHUANIA.region_state:SWP
 				}
 		}
 	}

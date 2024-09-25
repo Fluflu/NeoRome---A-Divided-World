@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:IBZ = {
+	c:IBZ ?= {
 		# Exact date?
 		set_next_election_date = 1839.1.1
 		

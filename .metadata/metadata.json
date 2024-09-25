@@ -1,0 +1,23 @@
+{
+  "name" : "Neo Rome - A divided World - github",
+  "id" : "",
+  "version" : "0.2",
+  "supported_game_version" : "",
+  "short_description" : "Neo Rome - A divided World",
+	"tags" : [
+		"Alternative History"
+	],
+	"relationships" : [],
+	"game_custom_data" : {
+		"multiplayer_synchronized": true,
+		"replace_paths" : [
+			"common/history/buildings",
+      		"common/history/diplomacy",
+      		"common/history/diplomatic_plays",
+      		"common/history/interests",
+      		"common/history/pops",
+      		"common/history/states",
+			"common/history/power_blocs"
+    		]
+  	}
+}

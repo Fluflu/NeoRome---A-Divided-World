@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:CAT = {
+	c:CAT ?= {
 		set_next_election_date = 1837.7.13
 		
 		effect_starting_technology_tier_3_tech = yes

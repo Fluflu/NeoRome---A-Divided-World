@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:VEN = {
+	c:VEN ?= {
 
 		ig:ig_devout = {
 			add_ruling_interest_group = yes

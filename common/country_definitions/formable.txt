@@ -153,3 +153,13 @@ BTT = {
 	cultures = { welsh breton }
 	capital = STATE_WALES
 }
+
+### Arelate Empire (Burgundië formable) ###
+
+ARE = {
+	color = { 152 70 190 }
+	country_type = unrecognized
+	tier = empire
+	cultures = { french }	
+	capital = STATE_BURGUNDY
+}

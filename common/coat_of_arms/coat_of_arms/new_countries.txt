@@ -51,7 +51,7 @@ MAC = {
     }
 }
 
-BRG = {
+B01 = {
     pattern = "pattern_solid.tga"
     color1 = "white"
 
@@ -580,7 +580,7 @@ BTT = {
 
 BRR = {
     pattern = "pattern_solid.tga"
-    color1 = "white"
+    color1 = "red"
 
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
